@@ -1,3 +1,20 @@
 h1, h2, h3 {
-    
+   color: white ;
+}
+h1 {
+    background-color: #3B3176;
+}
+h2 {
+    background-color: #2A4C6F;
+}
+h3 {
+    background-color: #255C66;
+}
+h2+p {
+    background-color: #ccc;
+}
+p {
+    background-image: url("icon.gif");
+    background-repeat: no-repeat;
+    background-position: top right;
 }
